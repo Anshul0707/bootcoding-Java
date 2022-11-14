@@ -7,19 +7,17 @@ public class MathsUtility
     public static void main(String[] args)
     {
         MathsUtility m = new MathsUtility();
-        m.getASquareMinusBSquare();
-        m.getAPlusBWholeSquare();
-        m.getASquarePlusBSquare();
-        m.getAMinusBWholeSquare();
-        m.getAPlusBPlusCWholeSquare();
-        m.getAMinusBMinusCWholeSquare();
-        m.getAPlusBCube();
+        m.getASquareMinusBSquare(8,2);
+        m.getAPlusBWholeSquare(8,2);
+        m.getASquarePlusBSquare(8,2);
+        m.getAMinusBWholeSquare(8,2);
+        m.getAPlusBPlusCWholeSquare(8,2,4);
+        m.getAMinusBMinusCWholeSquare(8,2,4);
+        m.getAPlusBCube(8,2);
     }
 
-    public  int getASquareMinusBSquare()
+    public  int getASquareMinusBSquare(int a,int b)
     {
-        int a = 8;
-        int b= 2;
         a=a*a;
         b=b*b;
 
@@ -28,10 +26,8 @@ public class MathsUtility
         return result;
     }
 
-    public  int getAPlusBWholeSquare()
+    public  int getAPlusBWholeSquare(int a,int b)
     {
-        int a = 8;
-        int b= 2;
         int add=a+b;
         int sq=add*add;
 
@@ -40,10 +36,8 @@ public class MathsUtility
         return result;
     }
 
-    public  int getASquarePlusBSquare()
+    public  int getASquarePlusBSquare(int a,int b)
     {
-        int a = 8;
-        int b= 2;
         a=a*a;
         b=b*b;
         int add=a+b;
@@ -53,10 +47,8 @@ public class MathsUtility
         return result;
     }
 
-    public  int getAMinusBWholeSquare()
+    public  int getAMinusBWholeSquare(int a,int b)
     {
-        int a = 8;
-        int b= 2;
         int sub=a-b;
         int sq=sub*sub;
 
@@ -65,11 +57,8 @@ public class MathsUtility
         return result;
     }
 
-    public  int getAPlusBPlusCWholeSquare()
+    public  int getAPlusBPlusCWholeSquare(int a,int b,int c)
     {
-        int a = 8;
-        int b= 2;
-        int c=4;
         int add=a+b+c;
         int sq=add*add;
 
@@ -78,11 +67,8 @@ public class MathsUtility
         return result;
     }
 
-    public  int getAMinusBMinusCWholeSquare()
+    public  int getAMinusBMinusCWholeSquare(int a,int b, int c)
     {
-        int a = 8;
-        int b= 2;
-        int c=4;
         int sub=a-b-c;
         int sq=sub*sub;
 
@@ -91,10 +77,8 @@ public class MathsUtility
         return result;
     }
 
-    public  int getAPlusBCube()
+    public  int getAPlusBCube(int a,int b)
     {
-        int a = 8;
-        int b= 2;
         int add=a+b;
         int sq=add*add*add;
 
