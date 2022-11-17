@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Arrays;
 
-public class Program3
+public class FindMinMaxArray
 {
     static int[] a ={1,2,5,6,3,2}; //Given Number
 

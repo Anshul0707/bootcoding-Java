@@ -16,7 +16,7 @@ public class Program6
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String rev=" ";
-        String[] s =str.split(" ");
+        String[] s =str.split("");
         for (String word:s)
         {
             rev=word + " " + rev;
