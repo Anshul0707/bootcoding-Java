@@ -4,7 +4,7 @@ public class FindFactorial
 {
     public static void main(String[] args)
     {
-    getFact(29);
+        getFact(5);
     }
 
     public static void getFact(int num)
