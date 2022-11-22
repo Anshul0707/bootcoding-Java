@@ -16,7 +16,7 @@ public class CalculateAge
         currentDate.setTime(new Date());
 
         Calendar birthDate = Calendar.getInstance();
-        birthDate.set(2000,11,11);
+        birthDate.set(1995,11,23);
 
         long years = currentDate.get(Calendar.YEAR) - birthDate.get(Calendar.YEAR);
         long month = currentDate.get(Calendar.MONTH) - birthDate.get(Calendar.MONTH);
