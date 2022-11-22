@@ -4,7 +4,7 @@ public class AdditionOfSeries
 {
     public static void main(String[] args)
     {
-        sum(5);
+        sum(10);
     }
 
     public static double sum(int num)
