@@ -1,11 +1,11 @@
 package Exercise;
 
-public class Program1
+public class CheakDivisibility
 {
 
     public static void main(String[] args)
     {
-        cheakDivisibility(30);
+        cheakDivisibility(6);
     }
 
     private static void cheakDivisibility( int num)
