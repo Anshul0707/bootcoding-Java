@@ -5,7 +5,7 @@ public class CheakDivisibility
 
     public static void main(String[] args)
     {
-        cheakDivisibility(6);
+        cheakDivisibility(99);
     }
 
     private static void cheakDivisibility( int num)
