@@ -6,6 +6,7 @@ public class BirdWatcher
         int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
         getLastWeek(birdsPerDay);
         getToday(birdsPerDay);
+        incrementTodayCount(birdsPerDay);
     }
     public static void getLastWeek(int[] birdsPerDay) {
         System.out.println("LastWeek");
@@ -16,5 +17,9 @@ public class BirdWatcher
     public static int getToday(int[] birdsPerDay){
         int res=birdsPerDay[birdsPerDay.length-1];
         return res;
+    }
+    public static int incrementTodayCount(int[] birdsPerDay) {
+        int res=birdsPerDay[birdsPerDay.length-1]+1;
+        return  res;
     }
 }
