@@ -7,6 +7,7 @@ public class BirdWatcher
         getLastWeek(birdsPerDay);
         getToday(birdsPerDay);
         incrementTodayCount(birdsPerDay);
+        hasDayWithoutBirds(birdsPerDay);
     }
     public static void getLastWeek(int[] birdsPerDay) {
         System.out.println("LastWeek");
@@ -21,5 +22,15 @@ public class BirdWatcher
     public static int incrementTodayCount(int[] birdsPerDay) {
         int res=birdsPerDay[birdsPerDay.length-1]+1;
         return  res;
+    }
+    public static boolean hasDayWithoutBirds(int[] birdsPerDay)
+    {
+        for (int i = 0; i < birdsPerDay.length; i++) {
+            if (birdsPerDay[i]==0)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
