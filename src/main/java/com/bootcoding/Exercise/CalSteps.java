@@ -1,4 +1,4 @@
-package com.bootcoding.Task;
+package com.bootcoding.Exercise;
 
 public class CalSteps
 {
