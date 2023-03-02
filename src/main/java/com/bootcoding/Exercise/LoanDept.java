@@ -1,4 +1,4 @@
-package com.bootcoding.Task;
+package com.bootcoding.Exercise;
 
 import java.util.Scanner;
 
