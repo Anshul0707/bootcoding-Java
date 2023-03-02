@@ -1,4 +1,4 @@
-package Exercise;
+package com.bootcoding.Exercise;
 
 import java.util.Arrays;
 
