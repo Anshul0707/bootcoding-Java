@@ -5,14 +5,11 @@ import java.util.Arrays;
 public class Program4
 {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
             getSecondLargNum();
-
     }
 
-    private static void getSecondLargNum()
-    {
+    private static void getSecondLargNum() {
         int a[] = { 12, 35, 1, 10, 34, 1 };
         int length = a.length;
         System.out.println(length);
