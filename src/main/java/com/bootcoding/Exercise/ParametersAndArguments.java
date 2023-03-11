@@ -4,7 +4,7 @@ public class ParametersAndArguments
 {
     public static void main(String[] args)
     {
-        printTwice("Good Morning..");//for Strings
+        printTwice("Good Morning.Bootcoding.");//for Strings
         printFourTime(77);//for Integers
 
     }
