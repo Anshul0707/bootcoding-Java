@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FindMinMaxArray
 {
-    static int[] a ={1,2,5,6,3,2}; //Given Number
+    static int[] a ={1,2,5,6,3,2,8}; //Given Number
 
     private static void getMinNum()
     {
