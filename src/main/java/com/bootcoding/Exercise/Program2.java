@@ -2,7 +2,7 @@ package com.bootcoding.Exercise;
 
 public class Program2
 {
-    static int[] a ={1,2,5,6,3,2}; //Given Number
+    static int[] a ={1,2,5,6,3,2,8,8}; //Given Number
     private static void getEvenNum()
     {
         System.out.println("Odd Numbers:");
