@@ -5,22 +5,6 @@ import java.util.Scanner;
 
 public class guessNumber
 {
-        //    I'm thinking of a num between 1 and 100
-        //(including both). Can you guess what it is?
-        //Type a num: 45
-        //Your guess is: 45
-        //The num I was thinking of is: 14
-        //You were off by: 31
-
-        //    import java.util.Random;
-        //public class GuessStarter {
-        //public static void main(String[] args) {
-        //// pick a random num
-        //Random random = new Random();
-        //int num = random.nextInt(100) + 1;
-        //System.out.println(num);
-        //}
-        //}
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
