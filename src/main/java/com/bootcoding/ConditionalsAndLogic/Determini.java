@@ -14,8 +14,7 @@ public class Determini
             System.out.println("pong!");
         }
     }
-    public static boolean isHoopy(int x)
-    {
+    public static boolean isHoopy(int x) {
         boolean hoopyFlag;
         if (x % 2 == 0) {
             hoopyFlag = true;
