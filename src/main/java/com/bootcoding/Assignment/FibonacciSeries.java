@@ -13,8 +13,7 @@ public class FibonacciSeries
         int second=1;
         int last;
 
-        for (int i=2;i<=n;i++)
-        {
+        for (int i=2;i<=n;i++) {
             last=first+second;
             first=second;
             second=last;
