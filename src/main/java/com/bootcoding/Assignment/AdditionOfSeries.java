@@ -10,8 +10,7 @@ public class AdditionOfSeries
     public static double sum(int num)
     {
         double add = 0.0;
-        for (double i=1;i<=num;i++)
-        {
+        for (double i=1;i<=num;i++) {
            add=add+1/i;
         }
         System.out.println(add);
