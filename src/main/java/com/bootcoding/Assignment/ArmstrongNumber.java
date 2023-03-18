@@ -10,8 +10,7 @@ public class ArmstrongNumber
 
     public static void armstrongOrNot()
     {
-        for (int i=1;i<=5000;i++)
-        {
+        for (int i=1;i<=5000;i++) {
             int num = i;
             int x;
             int result=0;
