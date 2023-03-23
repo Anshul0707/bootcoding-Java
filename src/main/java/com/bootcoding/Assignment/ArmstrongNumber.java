@@ -2,12 +2,12 @@ package com.bootcoding.Assignment;
 
 public class ArmstrongNumber
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         armstrongOrNot();
     }
 
+//    method to cheak armstrong or not
     public static void armstrongOrNot()
     {
         for (int i=1;i<=5000;i++) {
