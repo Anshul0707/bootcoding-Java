@@ -2,11 +2,11 @@ package com.bootcoding.Assignment;
 
 public class FibonacciSeries
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
     printFibonacciSeries(10);
     }
 
+//    method to check print Fibonacci series
     public static void printFibonacciSeries(int n)
     {
         int first = 0;
