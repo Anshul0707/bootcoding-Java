@@ -2,11 +2,11 @@ package com.bootcoding.Assignment;
 
 public class AdditionOfSeries
 {
-    public static void main(String[] args)
-    {
-        sum(10);
+    public static void main(String[] args) {
+        sum(20);
     }
 
+//    sum method
     public static double sum(int num)
     {
         double add = 0.0;
