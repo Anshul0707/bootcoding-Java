@@ -6,6 +6,7 @@ public class CalculateSum
         sum();
     }
 
+//    method to cheak sum of 10 digit num
     private static void sum() {
         int sum=1;
         for (int i=1;i<=10;i++) {
