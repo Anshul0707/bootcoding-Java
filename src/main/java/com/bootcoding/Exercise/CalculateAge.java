@@ -9,7 +9,6 @@ public class CalculateAge
     {
         calAge();
     }
-
     public static void calAge()
     {
         Calendar currentDate = Calendar.getInstance();
