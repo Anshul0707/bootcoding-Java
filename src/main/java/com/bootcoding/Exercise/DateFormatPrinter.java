@@ -11,6 +11,7 @@ public class DateFormatPrinter
     {
        System.out.println("American Date Format : "+day+ ","+month+ " " +date+ "," +year);  //Monday, July 22, 2019
     }
+    
     public static void printEuropean (String day, int date, String month, int year)
     {
         System.out.println("European Date Format : "+day+" "+date+" "+month+", "+year);
