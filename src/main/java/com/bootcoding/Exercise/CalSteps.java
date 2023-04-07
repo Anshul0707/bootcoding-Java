@@ -6,7 +6,6 @@ public class CalSteps
     {
      stepsCalculator(10);
     }
-
     public static void stepsCalculator(int n)
     {
         int r;
