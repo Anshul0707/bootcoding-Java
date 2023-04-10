@@ -21,6 +21,5 @@ public class FindFactorial
             }
             System.out.println("Factorial of " + num + " is " + fact);
         }
-
     }
 }
