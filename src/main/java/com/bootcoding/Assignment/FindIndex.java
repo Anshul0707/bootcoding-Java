@@ -3,7 +3,6 @@ package com.bootcoding.Assignment;
 // then return highest index of an element
 //For ex: array is [-23, 45, 5, -4, 34, 45] and input number is 45,
 //output: 5
-
 //use methods in this assignment to findIndex of an input element
 public class FindIndex
 {
@@ -12,7 +11,6 @@ public class FindIndex
         int [] arr={23, 45, 5, -4, 34, 45};
         System.out.println(findIndex(arr,45));
     }
-
     public static int findIndex(int arr[], int n)
     {
         if (arr==null)
