@@ -1,5 +1,4 @@
 package com.bootcoding.Assignment;
-
 public class FindFactorial
 {
     public static void main(String[] args)
@@ -22,6 +21,5 @@ public class FindFactorial
             }
             System.out.println("Factorial of " + num + " is " + fact);
         }
-
     }
 }

@@ -11,7 +11,6 @@ public class FindIndex
         int [] arr={23, 45, 5, -4, 34, 45};
         System.out.println(findIndex(arr,45));
     }
-
     public static int findIndex(int arr[], int n)
     {
         if (arr==null)
