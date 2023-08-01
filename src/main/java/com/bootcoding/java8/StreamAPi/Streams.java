@@ -3,7 +3,7 @@ package com.bootcoding.java8.StreamAPi;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
-public class Filter {
+public class Streams {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("Anshul");
@@ -14,7 +14,13 @@ public class Filter {
         list.add("Pranit");
 
         Stream<String> stream = list.stream();
-        Stream<String> a = stream.filter(s -> s.startsWith("A"));
-        a.forEach(n-> System.out.println(n));
+//        // filter operation
+//        Stream<String> a = stream.filter(s -> s.startsWith("A"));
+//        a.forEach(n-> System.out.println(n));
+
+        // map
+        Stream<String> string = stream.map(name -> name.toLowerCase());
+        string.forEach(n-> System.out.println(n));
+
     }
 }
