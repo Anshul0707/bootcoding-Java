@@ -1,4 +1,3 @@
-# bootcoding-Java
 # Java Basics Repository
 
 Welcome to the Java Basics repository! This project serves as a learning resource and codebase for mastering Java programming from the ground up. Whether you're a beginner getting started with programming or an experienced developer looking to refresh your Java skills, this repository has something for everyone.
